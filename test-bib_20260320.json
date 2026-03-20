@@ -1,8 +1,17 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://[dein-user].codeberg.page/[dein-repo]/collection.json",
+  "id": "https://rawliq.github.io/test-bib_20260320/test-bib_20260320.json",
   "type": "Collection",
   "label": { "de": [ "Virtuelle Test-Bibliothek" ] },
+
+  "thumbnail": [
+    {
+      "id": "https://www.e-rara.ch/i3f/v20/24561734/full/200,/0/default.jpg",
+      "type": "Image",
+      "format": "image/jpeg"
+    }
+  ],
+
   "items": [
     {
       "id": "https://www.e-rara.ch/i3f/v20/24561734/manifest",
@@ -16,13 +25,21 @@
           "format": "image/jpeg"
         }
       ],
- 
-    },
-    {
-      "id": "https://www.e-rara.ch/i3f/v20/7193125/manifest",
-      "type": "Manifest",
-      "label": { "de": [ "Lärchenwickler (ETH-Bibliothek)" ] }
+
+      "summary": {
+        "de": [
+          "Digitale Ausgabe der 'Topographia Sueviae' aus der Stadtbibliothek Schaffhausen."
+        ]
+      },
+
+      "homepage": [
+        {
+          "id": "https://www.e-rara.ch/sbs/24561734",
+          "type": "Text",
+          "label": { "de": ["Eintrag bei e-rara.ch"] },
+          "format": "text/html"
+        }
+      ]
     }
   ]
 }
-
