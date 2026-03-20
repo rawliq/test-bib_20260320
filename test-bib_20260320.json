@@ -7,10 +7,9 @@
     {
       "id": "https://www.e-rara.ch/i3f/v20/24561734/manifest",
       "type": "Manifest",
-      "label": { "de": [ "Topographia Sueviae der Stadtbibliothek Schaffhausen" ] }
-   
-   
-"thumbnail": [
+      "label": { "de": [ "Topographia Sueviae der Stadtbibliothek Schaffhausen" ] },
+
+      "thumbnail": [
         {
           "id": "https://www.e-rara.ch/i3f/v20/24561761/full/200,/0/default.jpg",
           "type": "Image",
