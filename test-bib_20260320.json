@@ -1,0 +1,19 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://[dein-user].codeberg.page/[dein-repo]/collection.json",
+  "type": "Collection",
+  "label": { "de": [ "Virtuelle Test-Bibliothek" ] },
+  "items": [
+    {
+      "id": "https://www.e-rara.ch/i3f/v20/24561734/manifest",
+      "type": "Manifest",
+      "label": { "de": [ "Topographia Sueviae der Stadtbibliothek Schaffhausen" ] }
+    },
+    {
+      "id": "https://www.e-rara.ch/i3f/v20/7193125/manifest",
+      "type": "Manifest",
+      "label": { "de": [ "Lärchenwickler (ETH-Bibliothek)" ] }
+    }
+  ]
+}
+
